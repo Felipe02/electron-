@@ -1,0 +1,54 @@
+{
+  "name": "WebSaver",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --x64 --ia32",
+    "postinstall": "electron-builder install-app-deps",
+    "dev": "NODE_ENV='development' npm run start"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": {
+    "name": "Felipe Pereira e Joao Luigi",
+    "email": "felipereira@hotmail.com",
+    "url": "https://gitlab.com/felipereira"
+  },
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.8",
+    "electron-builder": "^19.45.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jquery": "^1.7.4",
+    "util": "^0.10.3"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.19",
+    "xmldom": "^0.1.27",
+    "mssql": "^4.1.0",
+    "dateformat": "^3.0.2"
+  },
+  "build": {
+    "appId": "eng.omnilink.webterm",
+    "linux": {
+      "target": "deb"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "./resources/websaver.ico"
+    }
+  }
+}

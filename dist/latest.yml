@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: WebSaver-Setup-1.0.0.exe
+    sha512: wWlQDwubWtXaITN60RCRKpz2FlY8RHkfCD/eR64PBtLKbazxrQjLwHMmXbFg3eOIWpc9fUKIG205nrHHU9t9WQ==
+path: WebSaver-Setup-1.0.0.exe
+sha512: wWlQDwubWtXaITN60RCRKpz2FlY8RHkfCD/eR64PBtLKbazxrQjLwHMmXbFg3eOIWpc9fUKIG205nrHHU9t9WQ==
+sha2: a48cbb12a26a8fc6b7b1fe5e7942d5a9427fa75e3e7b40c8dff900e03135a98b
+releaseDate: '2017-12-18T12:43:36.897Z'

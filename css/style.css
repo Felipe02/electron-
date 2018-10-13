@@ -1,0 +1,58 @@
+body 
+{
+    background-color:white;
+}
+nav 
+{
+    background-color: white;
+}
+
+
+table
+{
+    width: 100%;
+}
+
+thead, tbody, tr, td, th 
+{ 
+    display: block;
+}
+
+tr:after 
+{
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+thead th 
+{
+    height: auto;
+
+    /*text-align: left;*/
+}
+
+tbody 
+{
+    height: 290px;
+    overflow-y: auto;
+}
+
+thead 
+{
+    /* fallback */
+}
+
+
+tbody td 
+{
+    width: 25%;
+    float: left;
+}
+
+thead th{
+    
+    width: 25%;
+    float: left;
+}

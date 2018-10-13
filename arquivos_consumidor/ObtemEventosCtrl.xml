@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ObtemEventosCtrl xmlns="http://microsoft.com/webservices/">
+      <Usuario>teste</Usuario>
+      <Senha>zatix</Senha>
+      <UltimoSequencialCtrl>9999999</UltimoSequencialCtrl>
+    </ObtemEventosCtrl>
+  </soap:Body>
+</soap:Envelope>
+
